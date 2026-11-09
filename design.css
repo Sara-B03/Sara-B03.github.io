@@ -1,12 +1,18 @@
 body {
     background-color: rgb(171, 196, 235);
-    margin: auto;
-    width: 1300px; 
-    padding: 20px;
-    font-family: 'Avenir', sans-serif; 
-    line-height: 320%;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Avenir', sans-serif;
+    line-height: 1.7;
     font-size: large;
-    color: #33475b;    
+    color: #33475b;
+  }
+
+  img, video {
+    max-width: 100%;
   }
 
   .card {
