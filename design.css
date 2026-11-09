@@ -88,3 +88,7 @@ body {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
 }
   
+/* Tighter spacing for the CV-based sections */
+#experience, #education, #platforms {
+  line-height: 1.6;
+}
